@@ -3,7 +3,7 @@ Summary(pl):	Wsparcie do budowania z u¿yciem Tooltalk
 Name:		xemacs-tooltalk-pkg
 %define 	srcname	tooltalk
 Version:	1.15
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/Editors/Emacs
 Source0:	ftp://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
