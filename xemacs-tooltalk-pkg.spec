@@ -1,11 +1,12 @@
 Summary:	Support for building with Tooltalk
-Summary(pl):	Support for building with Tooltalk
+Summary(pl):	Wsparcie do budowania z u¿yciem Tooltalk
 Name:		xemacs-tooltalk-pkg
 %define 	srcname	tooltalk
 Version:	1.13
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/Editors/Emacs
+Group(de):	Applikationen/Editors/Emacs
 Group(pl):	Aplikacje/Edytory/Emacs
 Source0:	ftp://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
 URL:		http://www.xemacs.org/
@@ -15,8 +16,10 @@ Requires:	xemacs
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
+Support for building with Tooltalk.
 
 %description -l pl 
+Wsparcie do budowania z u¿yciem Tooltalk.
 
 %prep
 %setup -q -c
