@@ -16,7 +16,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Support for building with Tooltalk.
 
-%description -l pl 
+%description -l pl
 Wsparcie do budowania z u¿yciem Tooltalk.
 
 %prep
@@ -28,13 +28,13 @@ install -d $RPM_BUILD_ROOT%{_datadir}/xemacs-packages
 
 cp -a * $RPM_BUILD_ROOT%{_datadir}/xemacs-packages
 
-gzip -9nf lisp/tooltalk/ChangeLog 
+gzip -9nf lisp/tooltalk/ChangeLog
 
 %clean
 rm -fr $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc lisp/tooltalk/ChangeLog.gz 
+%doc lisp/tooltalk/ChangeLog.gz
 %dir %{_datadir}/xemacs-packages/lisp/*
 %{_datadir}/xemacs-packages/lisp/*/*.elc
