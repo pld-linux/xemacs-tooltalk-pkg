@@ -2,7 +2,7 @@ Summary:	Support for building with Tooltalk
 Summary(pl):	Support for building with Tooltalk
 Name:		xemacs-tooltalk-pkg
 %define 	srcname	tooltalk
-Version:	1.12
+Version:	1.13
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
