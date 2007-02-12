@@ -1,5 +1,5 @@
 Summary:	Support for building with Tooltalk
-Summary(pl):	Wsparcie do budowania z uøyciem Tooltalk
+Summary(pl.UTF-8):   Wsparcie do budowania z u≈ºyciem Tooltalk
 Name:		xemacs-tooltalk-pkg
 %define 	srcname	tooltalk
 Version:	1.15
@@ -17,8 +17,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Support for building with Tooltalk.
 
-%description -l pl
-Wsparcie do budowania z uøyciem Tooltalk.
+%description -l pl.UTF-8
+Wsparcie do budowania z u≈ºyciem Tooltalk.
 
 %prep
 %setup -q -c
